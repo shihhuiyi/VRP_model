@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_31c597e2147d42a2929fe08ade73470f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_31c597e2147d42a2929fe08ade73470f" ></div>
+        
+</body>
+<script>    
+    
+            var map_31c597e2147d42a2929fe08ade73470f = L.map(
+                "map_31c597e2147d42a2929fe08ade73470f",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bf23a24cf0046b1921bd871868f1187 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_31c597e2147d42a2929fe08ade73470f);
+        
+    
+            var marker_cc57edc01965480d8ba65c0174b9c0c0 = L.marker(
+                [35.69, 139.69],
+                {}
+            ).addTo(map_31c597e2147d42a2929fe08ade73470f);
+        
+    
+        var popup_e53320bc2b6a4fdfab45bca1b6b1e962 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aa8b9b9d69b499ca425c307e374e747 = $(`<div id="html_1aa8b9b9d69b499ca425c307e374e747" style="width: 100.0%; height: 100.0%;">東京</div>`)[0];
+            popup_e53320bc2b6a4fdfab45bca1b6b1e962.setContent(html_1aa8b9b9d69b499ca425c307e374e747);
+        
+
+        marker_cc57edc01965480d8ba65c0174b9c0c0.bindPopup(popup_e53320bc2b6a4fdfab45bca1b6b1e962)
+        ;
+
+        
+    
+    
+            var marker_0b36d2cc276443b8b8bf7d8cd53564bc = L.marker(
+                [40.6643, -73.9385],
+                {}
+            ).addTo(map_31c597e2147d42a2929fe08ade73470f);
+        
+    
+        var popup_608cc3422cf2480cbbed54932f155dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb5a1dc1ac5b4d4fa330576eac0b1d04 = $(`<div id="html_fb5a1dc1ac5b4d4fa330576eac0b1d04" style="width: 100.0%; height: 100.0%;">紐約</div>`)[0];
+            popup_608cc3422cf2480cbbed54932f155dd8.setContent(html_fb5a1dc1ac5b4d4fa330576eac0b1d04);
+        
+
+        marker_0b36d2cc276443b8b8bf7d8cd53564bc.bindPopup(popup_608cc3422cf2480cbbed54932f155dd8)
+        ;
+
+        
+    
+    
+            var marker_10db2d5d918b4c9d923ed5f3d4810f3c = L.marker(
+                [48.51, 2.2],
+                {}
+            ).addTo(map_31c597e2147d42a2929fe08ade73470f);
+        
+    
+        var popup_e53210b235d843e7bc6940eb4780bd56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3df1c546b814e8ca8f9b9e93261d7a9 = $(`<div id="html_b3df1c546b814e8ca8f9b9e93261d7a9" style="width: 100.0%; height: 100.0%;">巴黎</div>`)[0];
+            popup_e53210b235d843e7bc6940eb4780bd56.setContent(html_b3df1c546b814e8ca8f9b9e93261d7a9);
+        
+
+        marker_10db2d5d918b4c9d923ed5f3d4810f3c.bindPopup(popup_e53210b235d843e7bc6940eb4780bd56)
+        ;
+
+        
+    
+    
+            var marker_dd3439d1c0e24a3c93d80f931b785f6e = L.marker(
+                [25.26, 55.29],
+                {}
+            ).addTo(map_31c597e2147d42a2929fe08ade73470f);
+        
+    
+        var popup_d28c095450814f36b52806a020b04127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_811d7051477d4423bc1fdc46dfc71583 = $(`<div id="html_811d7051477d4423bc1fdc46dfc71583" style="width: 100.0%; height: 100.0%;">杜拜</div>`)[0];
+            popup_d28c095450814f36b52806a020b04127.setContent(html_811d7051477d4423bc1fdc46dfc71583);
+        
+
+        marker_dd3439d1c0e24a3c93d80f931b785f6e.bindPopup(popup_d28c095450814f36b52806a020b04127)
+        ;
+
+        
+    
+</script>
